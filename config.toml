@@ -18,8 +18,8 @@ pygmentOptions = "linenos=table"
   category = "projects"
 
 [Params]
-  homeTitle = "Hugo" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  homeTitle = "frwolf" # Set a different text for the header on the home page
+  subtitle = "A blog for https://github.com/frwolf"
   logo = "img/avatar.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -37,10 +37,10 @@ pygmentOptions = "linenos=table"
 [[Params.bigimg]]
   src = "img/wolfgang-hasselmann-1131726-unsplash.jpg"
   desc = "Photo by Wolfgang Hasselmann on Unsplash"
-[[Params.bigimg]]
+[[_Params.bigimg]]
   src = "img/sergey-pesterev-453799-unsplash.jpg"
   desc = "Photo by Sergey Pesterev on Unsplash"
-[[Params.bigimg]]
+[[_Params.bigimg]]
   src = "img/johannes-plenio-629984-unsplash.jpg"
   desc = "Photo by Johannes Plenio on Unsplash"
 
@@ -94,6 +94,6 @@ pygmentOptions = "linenos=table"
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 4
 
