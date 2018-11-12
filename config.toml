@@ -1,0 +1,99 @@
+baseURL = "https://frwolf.github.io/blog"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "frwolf"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = false
+pygmentOptions = "linenos=table"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[taxonomies]
+  tag = "tags"
+  category = "projects"
+
+[Params]
+  homeTitle = "Hugo" # Set a different text for the header on the home page
+  subtitle = "Build a beautiful and simple website in minutes"
+  logo = "img/avatar.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/wolfgang-hasselmann-1131726-unsplash.jpg"
+  desc = "Photo by Wolfgang Hasselmann on Unsplash"
+[[Params.bigimg]]
+  src = "img/sergey-pesterev-453799-unsplash.jpg"
+  desc = "Photo by Sergey Pesterev on Unsplash"
+[[Params.bigimg]]
+  src = "img/johannes-plenio-629984-unsplash.jpg"
+  desc = "Photo by Johannes Plenio on Unsplash"
+
+[Author]
+  name = "frwolf"
+  _website = "yourwebsite.com"
+  _email = "youremail@domain.com"
+  _facebook = "username"
+  _googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "frwolf"
+  _gitlab = "username"
+  _bitbucket = "username"
+  _twitter = "username"
+  _reddit = "username"
+  _linkedin = "username"
+  _xing = "username"
+  _stackoverflow = "users/XXXXXXX/username"
+  _snapchat = "username"
+  _instagram = "username"
+  _youtube = "user/username" # or channel/channelname
+  _soundcloud = "username"
+  _spotify = "username"
+  _bandcamp = "username"
+  _itchio = "username"
+  _vk = "username"
+  _paypal = "username"
+  _telegram = "username"
+  _500px = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    weight = 2
+
+
+[[menu.main]]
+    parent = "projects"
+    name = "Development"
+    url = "projects/development"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
