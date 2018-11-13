@@ -1,11 +1,14 @@
 ---
-title: "Update to docker-ce 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2"
+title: "docker-ce update is broken on Raspberry Pi Model B Rev 2"
+summary: "The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture with a core-dump."
 date: "2018-11-13"
 tags: ["docker", "raspbian", "raspberry_pi"]
 _bigimg: [{src: "hugo-static-website-generator.png", desc: "hugo"}]
 ---
 
-The latest update of `docker-ce` to `18.09.0~3-0~raspbian-stretch` is broken on Raspberry Pi Model B Rev 2 as `containerd` refuses to start on this architecture with a core-dump.
+The latest update of `docker-ce` to `18.09.0~3-0~raspbian-stretch` is broken on
+Raspberry Pi Model B Rev 2 as `containerd` refuses to start on this architecture
+(`armv6l`) with a core-dump.
 
 The workaround is to downgrade the docker version again.
 
@@ -45,3 +48,5 @@ Use 'apt autoremove' to remove it.
 ```
 root@raspberrypi:~# apt autoremove
 ```
+
+After that, the docker deamon should be running again.
