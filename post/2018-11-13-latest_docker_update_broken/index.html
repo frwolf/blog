@@ -7,17 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>docker-ce update is broken on Raspberry Pi Model B Rev 2 - frwolf</title>
-  <meta property="og:title" content="docker-ce update is broken on Raspberry Pi Model B Rev 2" />
-  <meta name="twitter:title" content="docker-ce update is broken on Raspberry Pi Model B Rev 2" />
-  <meta name="description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is to downgrade the docker version again.
-List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 18.06.0~ce~3-0~raspbian 500 500 https://download.">
-  <meta property="og:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is to downgrade the docker version again.
-List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 18.06.0~ce~3-0~raspbian 500 500 https://download.">
-  <meta name="twitter:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is …">
+  <title>How to fix broken docker-ce update on Raspberry Pi Model B Rev 2 - frwolf</title>
+  <meta property="og:title" content="How to fix broken docker-ce update on Raspberry Pi Model B Rev 2" />
+  <meta name="twitter:title" content="How to fix broken docker-ce update on Raspberry Pi Model B Rev 2" />
+  <meta name="description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
+The workaround is to downgrade the docker version to a known good version.
+List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.">
+  <meta property="og:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
+The workaround is to downgrade the docker version to a known good version.
+List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.">
+  <meta name="twitter:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a …">
   <meta name="author" content="frwolf"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -54,7 +53,7 @@ The workaround is …">
         "position": 3,
         "item": {
           "@id": "https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/",
-          "name": "Docker ce update is broken on raspberry pi model b rev 2"
+          "name": "How to fix broken docker ce update on raspberry pi model b rev 2"
         }
     }]
 }
@@ -65,12 +64,12 @@ The workaround is …">
   "author": {
     "name" : "frwolf"
   },
-  "headline": "docker-ce update is broken on Raspberry Pi Model B Rev 2",
-  "description" : "The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is to downgrade the docker version again.
-List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 18.06.0~ce~3-0~raspbian 500 500 https://download.",
+  "headline": "How to fix broken docker-ce update on Raspberry Pi Model B Rev 2",
+  "description" : "The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
+The workaround is to downgrade the docker version to a known good version.
+List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.",
   "inLanguage" : "en",
-  "wordCount": 123,
+  "wordCount": 138,
   "datePublished" : "2018-11-13T00:00:00",
   "dateModified" : "2018-11-13T00:00:00",
   "image" : "https://frwolf.github.io/blog/img/avatar.jpg",
@@ -89,17 +88,16 @@ List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker
 }
 </script>
 
-<meta property="og:title" content="docker-ce update is broken on Raspberry Pi Model B Rev 2" />
-<meta property="og:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is to downgrade the docker version again.
-List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 18.06.0~ce~3-0~raspbian 500 500 https://download.">
+<meta property="og:title" content="How to fix broken docker-ce update on Raspberry Pi Model B Rev 2" />
+<meta property="og:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
+The workaround is to downgrade the docker version to a known good version.
+List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.">
 <meta property="og:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
 <meta property="og:url" content="https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="frwolf" />
-  <meta name="twitter:title" content="docker-ce update is broken on Raspberry Pi Model B Rev 2" />
-  <meta name="twitter:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-The workaround is …">
+  <meta name="twitter:title" content="How to fix broken docker-ce update on Raspberry Pi Model B Rev 2" />
+  <meta name="twitter:description" content="The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a …">
   <meta name="twitter:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
   <meta name="twitter:card" content="summary" />
   <link href='https://frwolf.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -259,7 +257,7 @@ The workaround is …">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>docker-ce update is broken on Raspberry Pi Model B Rev 2</h1>
+                <h1>How to fix broken docker-ce update on Raspberry Pi Model B Rev 2</h1>
               
               
               
@@ -270,13 +268,13 @@ The workaround is …">
   <i class="fas fa-calendar"></i>&nbsp;Posted on November 13, 2018
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;123&nbsp;words
+    &nbsp;|&nbsp;&nbsp;<i class="fas fa-book"></i>&nbsp;138&nbsp;words
   
   
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;frwolf
+    &nbsp;|&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;frwolf
   
   
 </span>
@@ -298,13 +296,13 @@ The workaround is …">
       <article role="main" class="blog-post">
         
 
-<p>The latest update of <code>docker-ce</code> to <code>18.09.0~3-0~raspbian-stretch</code> is broken on
-Raspberry Pi Model B Rev 2 as <code>containerd</code> refuses to start on this architecture
-(<code>armv6l</code>) with a core-dump.</p>
+<p>The latest update of <code>docker-ce</code> to <code>18.09.0~3-0~raspbian-stretch</code> on <code>raspbian-stretch</code>
+is broken for the Raspberry Pi Model B Rev 2 as <code>containerd</code> refuses to start on this
+architecture (<code>armv6l</code>) with a core-dump.</p>
 
-<p>The workaround is to downgrade the docker version again.</p>
+<p>The workaround is to downgrade the docker version to a known good version.</p>
 
-<h3 id="list-the-available-versions">List the available versions</h3>
+<h4 id="list-the-available-versions">List the available versions</h4>
 <div class="highlight"><pre class="chroma">root@raspberrypi:~# apt-cache policy docker-ce</pre></div><div class="highlight"><pre class="chroma">docker-ce:
   Installed: 5:18.09.0~3-0~raspbian-stretch
   Candidate: 5:18.09.0~3-0~raspbian-stretch
@@ -317,7 +315,7 @@ Raspberry Pi Model B Rev 2 as <code>containerd</code> refuses to start on this a
      18.06.0~ce~3-0~raspbian 500
         500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages
 [...]</pre></div>
-<h3 id="downgrade">Downgrade</h3>
+<h4 id="downgrade">Downgrade</h4>
 <div class="highlight"><pre class="chroma">root@raspberrypi:~# apt install docker-ce=18.06.1~ce~3-0~raspbian</pre></div><div class="highlight"><pre class="chroma"><span class="nx">Reading</span> <span class="kn">package</span> <span class="nx">lists</span><span class="o">...</span> <span class="nx">Done</span>
 <span class="nx">Building</span> <span class="nx">dependency</span> <span class="nx">tree</span>
 <span class="nx">Reading</span> <span class="nx">state</span> <span class="nx">information</span><span class="o">...</span> <span class="nx">Done</span>
@@ -325,7 +323,9 @@ Raspberry Pi Model B Rev 2 as <code>containerd</code> refuses to start on this a
   <span class="nx">containerd</span><span class="p">.</span><span class="nx">io</span>
 <span class="nx">Use</span> <span class="err">&#39;</span><span class="nx">apt</span> <span class="nx">autoremove</span><span class="err">&#39;</span> <span class="nx">to</span> <span class="nx">remove</span> <span class="nx">it</span><span class="p">.</span>
 <span class="p">[</span><span class="o">...</span><span class="p">]</span></pre></div>
-<h3 id="cleanup">Cleanup</h3>
+<h4 id="prevent-docker-ce-from-updating">Prevent docker-ce from updating</h4>
+<div class="highlight"><pre class="chroma">root@raspberrypi:~# apt-mark hold docker-ce</pre></div>
+<h4 id="cleanup">Cleanup</h4>
 <div class="highlight"><pre class="chroma">root@raspberrypi:~# apt autoremove</pre></div>
 <p>After that, the docker deamon should be running again.</p>
 
