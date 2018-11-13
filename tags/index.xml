@@ -6,26 +6,35 @@
     <description>Recent content in Tags on frwolf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://frwolf.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog</title>
-      <link>https://frwolf.github.io/blog/tags/blog/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Docker</title>
+      <link>https://frwolf.github.io/blog/tags/docker/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://frwolf.github.io/blog/tags/blog/</guid>
+      <guid>https://frwolf.github.io/blog/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Github</title>
-      <link>https://frwolf.github.io/blog/tags/github/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Raspberry_pi</title>
+      <link>https://frwolf.github.io/blog/tags/raspberry_pi/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://frwolf.github.io/blog/tags/github/</guid>
+      <guid>https://frwolf.github.io/blog/tags/raspberry_pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspbian</title>
+      <link>https://frwolf.github.io/blog/tags/raspbian/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://frwolf.github.io/blog/tags/raspbian/</guid>
       <description></description>
     </item>
     

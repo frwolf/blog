@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://frwolf.github.io/blog/post/2018-11-12-setup_blog_on_github_pages/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <loc>https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,24 +14,18 @@
   
   <url>
     <loc>https://frwolf.github.io/blog/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://frwolf.github.io/blog/tags/blog/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://frwolf.github.io/blog/tags/github/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <loc>https://frwolf.github.io/blog/tags/docker/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://frwolf.github.io/blog/post/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,8 +35,20 @@
   </url>
   
   <url>
+    <loc>https://frwolf.github.io/blog/tags/raspberry_pi/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frwolf.github.io/blog/tags/raspbian/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://frwolf.github.io/blog/tags/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

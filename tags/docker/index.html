@@ -7,12 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Overview of all pages with the tag #Blog - frwolf</title>
-  <meta property="og:title" content="Overview of all pages with the tag #Blog" />
-  <meta name="twitter:title" content="Overview of all pages with the tag #Blog" />
-  <meta name="description" content="Overview of all pages with the tag #Blog, such as: How to use GitHub Pages to host a blog">
-  <meta property="og:description" content="Overview of all pages with the tag #Blog, such as: How to use GitHub Pages to host a blog">
-  <meta name="twitter:description" content="Overview of all pages with the tag #Blog, such as: How to use GitHub Pages to host a blog">
+  <title>Overview of all pages with the tag #Docker - frwolf</title>
+  <meta property="og:title" content="Overview of all pages with the tag #Docker" />
+  <meta name="twitter:title" content="Overview of all pages with the tag #Docker" />
+  <meta name="description" content="Overview of all pages with the tag #Docker, such as: Update to docker-ce 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2">
+  <meta property="og:description" content="Overview of all pages with the tag #Docker, such as: Update to docker-ce 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2">
+  <meta name="twitter:description" content="Overview of all pages with the tag #Docker, such as: Update to docker-ce 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2">
   <meta name="author" content="frwolf"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -34,19 +34,19 @@
 }
 </script>
 
-<meta property="og:title" content="Blog" />
+<meta property="og:title" content="Docker" />
 <meta property="og:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
-<meta property="og:url" content="https://frwolf.github.io/blog/tags/blog/" />
+<meta property="og:url" content="https://frwolf.github.io/blog/tags/docker/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="frwolf" />
-  <meta name="twitter:title" content="Blog" />
+  <meta name="twitter:title" content="Docker" />
   <meta name="twitter:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
   <meta name="twitter:card" content="summary" />
   <link href='https://frwolf.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
   <meta name="twitter:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://frwolf.github.io/blog/tags/blog/" />
+  <meta property="og:url" content="https://frwolf.github.io/blog/tags/docker/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="frwolf" />
 
@@ -199,7 +199,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="tags-heading">
               
-                <h1>Blog</h1>
+                <h1>Docker</h1>
               
               
                 <hr class="small">
@@ -222,8 +222,8 @@
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://frwolf.github.io/blog/post/2018-11-12-setup_blog_on_github_pages/">
-                <h2 class="post-title">How to use GitHub Pages to host a blog</h2>
+              <a href="https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/">
+                <h2 class="post-title">Update to docker-ce 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2</h2>
 
                 
               </a>
@@ -232,13 +232,13 @@
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on November 12, 2018
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 13, 2018
   
   
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;113&nbsp;words
   
   frwolf
   
@@ -249,30 +249,21 @@
               </p>
               <div class="post-entry">
                 
-                  <p>&hellip;</p>
-
-<!--
-
-For the blog itself I have choosen [Hugo](https://gohugo.io/), an open-source static site generator,
-which is able to generate a website out of some [markdown](https://daringfireball.net/projects/markdown/syntax) content files.
-
-I followed the descritption on [https://gohugo.io](https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch)
-to set up a blog on GitHub Pages.
-
-1. [Install Hugo](https://gohugo.io/getting-started/installing/)
-
-
--->
-
+                  The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch is broken on Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture with a core-dump.
+The workaround is to downgrade the docker version again.
+List the available versions root@raspberrypi:~# apt-cache policy docker-cedocker-ce: Installed: 5:18.09.0~3-0~raspbian-stretch Candidate: 5:18.09.0~3-0~raspbian-stretch Version table: *** 5:18.09.0~3-0~raspbian-stretch 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 100 /var/lib/dpkg/status 18.06.1~ce~3-0~raspbian 500 500 https://download.docker.com/linux/raspbian stretch/edge armhf Packages 18.06.0~ce~3-0~raspbian 500 500 https://download.
+                  <a href="https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/" class="post-read-more">[Read More]</a>
                 
               </div>
 
               
                 <div class="blog-tags">
                   
-                    <a href="https://frwolf.github.io/blog/tags/blog/">blog</a>&nbsp;
+                    <a href="https://frwolf.github.io/blog/tags/docker/">docker</a>&nbsp;
                   
-                    <a href="https://frwolf.github.io/blog/tags/github/">github</a>&nbsp;
+                    <a href="https://frwolf.github.io/blog/tags/raspbian/">raspbian</a>&nbsp;
+                  
+                    <a href="https://frwolf.github.io/blog/tags/raspberry_pi/">raspberry_pi</a>&nbsp;
                   
                 </div>
               
