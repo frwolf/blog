@@ -34,7 +34,7 @@ pygmentOptions = "linenos=table"
   showRelatedPosts = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-[[Params.bigimg]]
+[[_Params.bigimg]]
   src = "img/wolfgang-hasselmann-1131726-unsplash.jpg"
   desc = "Photo by Wolfgang Hasselmann on Unsplash"
 [[_Params.bigimg]]
@@ -43,6 +43,9 @@ pygmentOptions = "linenos=table"
 [[_Params.bigimg]]
   src = "img/johannes-plenio-629984-unsplash.jpg"
   desc = "Photo by Johannes Plenio on Unsplash"
+[[Params.bigimg]]
+  src = "img/art-by-lonfeldt-1064207-unsplash.jpg"
+  desc = "Photo by Art by Lønfeldt on Unsplash"
 
 [Author]
   name = "frwolf"
