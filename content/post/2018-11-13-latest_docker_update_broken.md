@@ -19,7 +19,7 @@ The workaround is to downgrade the docker version to a known good version.
 
 #### List the available versions
 ```sh
-$ apt-cache policy docker-ce
+$ sudo apt-cache policy docker-ce
 ```
 ```sh
 docker-ce:
@@ -38,7 +38,7 @@ docker-ce:
 
 #### Downgrade to the last working version
 ```sh
-$ apt install docker-ce=18.06.1~ce~3-0~raspbian
+$ sudo apt install docker-ce=18.06.1~ce~3-0~raspbian
 ```
 ```sh
 Reading package lists... Done
@@ -51,12 +51,12 @@ Use 'apt autoremove' to remove it.
 ```
 #### Prevent docker-ce from updating
 ```sh
-$ apt-mark hold docker-ce
+$ sudo apt-mark hold docker-ce
 ```
 
 #### Cleanup the no longer required packages
 ```sh
-$ apt autoremove
+$ sudo apt autoremove
 ```
 
 After that, the docker deamon should be running again.

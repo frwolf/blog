@@ -78,13 +78,12 @@ pygmentOptions = "linenos=table"
     url = ""
     weight = 1
 
-[[menu.main]]
+[[_menu.main]]
     identifier = "projects"
     name = "Projects"
     weight = 2
 
-
-[[menu.main]]
+[[_menu.main]]
     parent = "projects"
     name = "Development"
     url = "projects/development"
