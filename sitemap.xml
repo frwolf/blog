@@ -3,24 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://frwolf.github.io/blog/about/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://frwolf.github.io/blog/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://frwolf.github.io/blog/tags/docker/</loc>
+    <loc>https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -30,7 +20,14 @@
   </url>
   
   <url>
-    <loc>https://frwolf.github.io/blog/projects/</loc>
+    <loc>https://frwolf.github.io/blog/tags/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frwolf.github.io/blog/tags/docker/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,8 +44,12 @@
   </url>
   
   <url>
-    <loc>https://frwolf.github.io/blog/tags/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <loc>https://frwolf.github.io/blog/about/</loc>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frwolf.github.io/blog/projects/</loc>
     <priority>0</priority>
   </url>
   

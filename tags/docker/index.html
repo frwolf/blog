@@ -7,26 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Overview of all pages with the tag #Docker - frwolf</title>
-  <meta property="og:title" content="Overview of all pages with the tag #Docker" />
-  <meta name="twitter:title" content="Overview of all pages with the tag #Docker" />
-  <meta name="description" content="Overview of all pages with the tag #Docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
-  <meta property="og:description" content="Overview of all pages with the tag #Docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
-  <meta name="twitter:description" content="Overview of all pages with the tag #Docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
+  <title>Overview of all pages with the tag #docker - frwolf</title>
+  <meta property="og:title" content="Overview of all pages with the tag #docker" />
+  <meta name="twitter:title" content="Overview of all pages with the tag #docker" />
+  <meta name="description" content="Overview of all pages with the tag #docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
+  <meta property="og:description" content="Overview of all pages with the tag #docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
+  <meta name="twitter:description" content="Overview of all pages with the tag #docker, such as: How to fix broken docker-ce update on Raspberry Pi Model B Rev 2">
   <meta name="author" content="frwolf"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "frwolf",
     
-    "url": "https://frwolf.github.io/blog"
+    "url": "https:\/\/frwolf.github.io\/blog"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "https://frwolf.github.io/blog"
+  "url": "https:\/\/frwolf.github.io\/blog"
   
   
   
@@ -34,12 +34,12 @@
 }
 </script>
 
-<meta property="og:title" content="Docker" />
+<meta property="og:title" content="docker" />
 <meta property="og:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
 <meta property="og:url" content="https://frwolf.github.io/blog/tags/docker/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="frwolf" />
-  <meta name="twitter:title" content="Docker" />
+  <meta name="twitter:title" content="docker" />
   <meta name="twitter:image" content="https://frwolf.github.io/blog/img/avatar.jpg" />
   <meta name="twitter:card" content="summary" />
   <link href='https://frwolf.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -50,7 +50,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="frwolf" />
 
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.55.5" />
   <link rel="alternate" href="https://frwolf.github.io/blog/index.xml" type="application/rss+xml" title="frwolf">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -188,7 +188,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="tags-heading">
               
-                <h1>Docker</h1>
+                <h1>docker</h1>
               
               
                 <hr class="small">
@@ -239,11 +239,43 @@
               </p>
               <div class="post-entry">
                 
-                  The latest update of docker-ce to 18.09.0~3-0~raspbian-stretch on raspbian-stretch is broken for the Raspberry Pi Model B Rev 2 as containerd refuses to start on this architecture (armv6l) with a core-dump.
-With the following command you can print out your model and the machine architecture
-$ echo $(tr -d &#39;\0&#39; &lt; /proc/device-tree/model) - $(uname -m) The workaround is to downgrade the docker version to a known good version.
-List the available versions $ sudo apt-cache policy docker-cedocker-ce: Installed: 5:18.
-                  <a href="https://frwolf.github.io/blog/post/2018-11-13-latest_docker_update_broken/" class="post-read-more">[Read More]</a>
+                  
+
+<p>The latest update of <code>docker-ce</code> to <code>18.09.0~3-0~raspbian-stretch</code> on <code>raspbian-stretch</code>
+is broken for the Raspberry Pi Model B Rev 2 as <code>containerd</code> refuses to start on this
+architecture (<code>armv6l</code>) with a core-dump.</p>
+
+<p>With the following command you can print out your model and the machine architecture</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ <span class="nb">echo</span> <span class="k">$(</span>tr -d <span class="s1">&#39;\0&#39;</span> &lt; /proc/device-tree/model<span class="k">)</span> - <span class="k">$(</span>uname -m<span class="k">)</span></code></pre></div>
+<p>The workaround is to downgrade the docker version to a known good version.</p>
+
+<h4 id="list-the-available-versions">List the available versions</h4>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ sudo apt-cache policy docker-ce</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">docker-ce:
+  Installed: <span class="m">5</span>:18.09.0~3-0~raspbian-stretch
+  Candidate: <span class="m">5</span>:18.09.0~3-0~raspbian-stretch
+  Version table:
+ *** <span class="m">5</span>:18.09.0~3-0~raspbian-stretch <span class="m">500</span>
+        <span class="m">500</span> https://download.docker.com/linux/raspbian stretch/edge armhf Packages
+        <span class="m">100</span> /var/lib/dpkg/status
+     <span class="m">18</span>.06.1~ce~3-0~raspbian <span class="m">500</span>
+        <span class="m">500</span> https://download.docker.com/linux/raspbian stretch/edge armhf Packages
+     <span class="m">18</span>.06.0~ce~3-0~raspbian <span class="m">500</span>
+        <span class="m">500</span> https://download.docker.com/linux/raspbian stretch/edge armhf Packages
+<span class="o">[</span>...<span class="o">]</span></code></pre></div>
+<h4 id="downgrade-to-the-last-working-version">Downgrade to the last working version</h4>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ sudo apt install docker-ce<span class="o">=</span><span class="m">18</span>.06.1~ce~3-0~raspbian</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  containerd.io
+Use <span class="s1">&#39;apt autoremove&#39;</span> to remove it.
+<span class="o">[</span>...<span class="o">]</span></code></pre></div>
+<h4 id="prevent-docker-ce-from-updating">Prevent docker-ce from updating</h4>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ sudo apt-mark hold docker-ce</code></pre></div>
+<h4 id="cleanup-the-no-longer-required-packages">Cleanup the no longer required packages</h4>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ sudo apt autoremove</code></pre></div>
+<p>After that, the docker deamon should be running again.</p>
+
                 
               </div>
 
@@ -298,7 +330,7 @@ List the available versions $ sudo apt-cache policy docker-cedocker-ce: Installe
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.40.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="http://gohugo.io">Hugo v0.55.5</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>
